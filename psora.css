@@ -1,6 +1,8 @@
 * {
 	margin: 15;
 	padding: 15;
+	list-style: none;
+  	text-decoration: none;
 }
 
 body {
@@ -30,6 +32,7 @@ iframe {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+	width: 65%;
 }
 
 #menu{
@@ -38,7 +41,10 @@ iframe {
 	text-align: center;
 	width: 250px;
 	margin:50px;
-	padding: 2px ;
+	padding: 2px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 
 #menu ul {
@@ -60,7 +66,7 @@ iframe {
 	background: #A0522D;
 }
 
-#menu ul li a {
+#menu ul li {
 	text-decoration: none;
 	padding: 3px 20px 3px 5px;
 	display: block;
