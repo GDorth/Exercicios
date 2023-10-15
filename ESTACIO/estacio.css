@@ -1,0 +1,119 @@
+* {
+    margin: 10px, 8px, 8px, 10px;
+	padding: 10px, 8px, 8px, 10px;
+}
+	
+
+body {
+    background: #ceddf1; mask-repeat: repeat; border-left;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    padding: 10px 0 10px 0;
+    background-color: aquamarine;
+    font-size: 12px;
+    color:rgb(95, 95, 95);
+    text-align: center;
+}
+
+nav {
+    width: 10%;
+    height: 3000px;
+    background-color: rgb(210, 170, 248);
+    font-size: 12px;
+    color:rgb(95, 95, 95);
+    text-align: center;
+    float: left;
+}
+
+main {
+    width: 80%;
+    height: 600px;
+    background-color:#ceddf1;
+    text-align: justify;
+    float: left;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-weight: normal;
+    line-height: 1.2; /* aumenta o espaçamento em 1,5 vezes o tamanho da fonte */
+    letter-spacing: 0em; /* aumenta o espaçamento em 0,1 vezes o tamanho da fonte */
+    word-spacing: 0.1em; /* aumenta o espaçamento em 0,2 vezes o tamanho da fonte */
+}
+
+aside {
+    width: 10%;
+    height: 3000px;
+    background-color: rgb(210, 170, 248);
+    font-size: 12px;
+    color:rgb(95, 95, 95);
+    text-align: center;
+    float: right;
+}
+
+h1 {
+    color:#ce073c;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+h2 {
+    color:#ca689e;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+}
+
+h3 {
+    color:#732751;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p#com_pseudoclasse span.letra_maior {
+    font-size: 30px;
+    color: blue;
+}
+
+form {
+    background-color: rgb(199, 199, 199);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border: 2px, slategrey, solid;
+    padding: auto;
+}
+
+.cor_verde {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 2px 2px 2px 2px;
+    border: 0.25px solid;
+    cursor: pointer;
+  }
+  
+  .cor_verde:hover {
+    background-color: rgb(0, 255, 55);
+  }
+
+#imagem_html {
+   position: auto;
+   display: flex;
+   justify-content: auto;
+   align-items: auto;
+   margin: 30px 15px 15px 10px;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+    font-size: 12px;
+    color:rgb(95, 95, 95);
+    text-align: center;
+    float: right;
+}

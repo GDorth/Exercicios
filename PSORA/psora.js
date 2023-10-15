@@ -1,12 +1,6 @@
-$ (document).ready.do {
-	(
-} while (condition);function){
-
- $( function() {
-    $( "#accordion" ).accordion();
-  } );
-
+$(document).ready(function () { 
 	$(".mn").click(function(){
-		$(".submn1").slideUp ("slow");
+		$(".submn1").slideDown ("slow");
 		$(this).next ("submn1").slideDown("slow");
 	})
+ });

@@ -7,7 +7,7 @@
     <title>Aprendendo Javascript com Curso em Vídeo</title>
     <style>
         body {
-            background-color: rgb(3, 45, 63);
+            background-color: rgb(3, 45, 63); 
             color: white;
             font: normal 18pt Arial;
             }
@@ -20,9 +20,8 @@
     <h1>Olá, mundo!</h1>
     <p>Já me livrei da maldição...</p>
     <script>
-        window.alert ('Minha primeira mensagem') //Apenas botão OK.
-        window.confirm ("Está gostando de Javascript?") //Botões OK e Cancelar.
-        window.prompt ("Qual é o seu nome?") //Abre prompt.
+        var nome = window.prompt ("Qual é o seu nome?") //Abre prompt
+        window.alert("É um grande prazer em te conhecer, " + nome + " !") //Concatenação
     </script>    
 </body>
 </html>

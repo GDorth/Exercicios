@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Javascript com Curso em Vídeo</title>
+    <style>
+        body {
+            background-color: rgb(3, 45, 63); 
+            color: white;
+            font: normal 18pt Arial;
+            }
+        h1 {
+            color: yellow
+            }    
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição...</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número:')) //string
+        var n2 = Number.parseInt(window.prompt('Digite outro número:')) //string
+        var s = n1 + n2
+        window.alert('A soma dos valores é:' + s )
+        //(number+number) JS entende o sinal "+" como adição => fazer conversão
+        //(string+string) JS entende o sinal "+" como concatenação  => fazer conversão
+        /*Formatando Strings:
+        'Eu estou aprendendo s' === não faz interpolação
+        'Eu estou aprendendo' + s === usa concatenação
+        `Eu estou aprendendo ${s}` === usa template string (usa placeholder)
+    </script>    
+</body>
+</html>
